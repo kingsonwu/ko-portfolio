@@ -524,7 +524,7 @@ select {
 	padding: 1.5rem 0;
 	border: 0;
 	outline: none;
-	vertical-align: middle;
+	/* vertical-align: middle; */
 	color: #313131;
 	font-family: "poppins-regular", sans-serif;
 	font-size: 1.5rem;
@@ -944,15 +944,15 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	margin: 6rem 0 3rem;
 }
 .skill-bars li {
-	height: .6rem;
-	background: #a1a1a1;
+	height: .1rem;
+	/* background: #a1a1a1; */
 	width: 100%;
-	margin-bottom: 6rem;
+	margin-bottom: 5rem;
 	padding: 0;
 	position: relative;
 }
 .skill-bars li strong {
-	position: absolute;
+	/* position: absolute; */
 	left: 0;
 	top: -3rem;
 	font-family: "poppins-bold", sans-serif;
@@ -962,12 +962,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	font-size: 1.5rem;
 	line-height: 2.4rem;
 }
-.skill-bars li .progress {
+/* .skill-bars li .progress {
 	background: #313131;
 	position: relative;
 	height: 100%;
-}
-.skill-bars li .progress span {
+} */
+/* .skill-bars li .progress span {
 	position: absolute;
 	right: 0;
 	top: -3.6rem;
@@ -978,9 +978,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	line-height: 1;
 	background: #313131;
 	padding: .6rem .6rem;
-	border-radius: 3px;
-}
-.skill-bars li .progress span::after {
+	border-radius: 3px; */
+/* } */
+/* .skill-bars li .progress span::after {
 	position: absolute;
 	left: 50%;
 	bottom: -5px;
@@ -989,9 +989,9 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	border-left: 5px solid transparent;
 	border-top: 5px solid #313131;
 	content: "";
-}
+} */
 
-.skill-bars li .percent5   { width: 5%; }
+/* .skill-bars li .percent5   { width: 5%; }
 .skill-bars li .percent10  { width: 10%; }
 .skill-bars li .percent15  { width: 15%; }
 .skill-bars li .percent20  { width: 20%; }
@@ -1010,7 +1010,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .skill-bars li .percent85  { width: 85%; }
 .skill-bars li .percent90  { width: 90%; }
 .skill-bars li .percent95  { width: 95%; }
-.skill-bars li .percent100 { width: 100%; }
+.skill-bars li .percent100 { width: 100%; } */
 
 
 /** 
@@ -1529,6 +1529,7 @@ header .logo a {
 	font-size: 1.8rem;
 	text-transform: uppercase;
 	letter-spacing: .25rem;
+	text-align: center;
 }
 .about-content .info-list {
 	list-style: none;
@@ -1554,7 +1555,7 @@ header .logo a {
 	line-height: 1;
 }
 .about-content .skill-bars {
-	margin-top: 6rem;
+	margin-top: 3rem;
 }
 
 .button-section {
